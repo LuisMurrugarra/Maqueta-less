@@ -1,0 +1,16 @@
+.projects .projects__container .project__card {
+  grid-template-rows: repeat(2, 220px);
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-areas: "i c" "i c";
+}
+.projects .projects__container .project__card--two {
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-areas: "c i" "c i";
+}
+.projects2 .projects2__container .project2__container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+}

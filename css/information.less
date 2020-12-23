@@ -1,0 +1,38 @@
+.information{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @color-light;
+    text-align: center;
+    .information__container{
+        width: 100%;
+        max-width: @max-container;
+        height: auto;
+        .information__title{
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+        .information__text{
+            margin: 25px 0px;
+            font-size: 1.4rem;
+            line-height: 25px;
+            color: @color-gray;
+        }
+        .information__icons{
+            padding: 20px 0;
+            .circle{
+                display: inline-block;
+                margin: 0 8px;
+                padding: 20px;
+                border: solid 2px rgb(206, 211, 214);
+                border-radius:50%;
+            }
+            .circle i{
+                font-size: 3rem;
+                color: @color-turquesa;
+            }
+        }
+    }
+}

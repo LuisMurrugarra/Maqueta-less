@@ -1,0 +1,17 @@
+mixin circle-icons(value)
+	span.circle
+		i(class=value)
+mixin project(title,text,index)
+	article(class="project__card "+"project__card--"+index)
+		div(class="card__imagen "+"card__imagen--"+index)
+		div(class="card__content "+"card__content--"+index)
+			h2 #{title}
+			p #{text}
+mixin project2(icon,title,text)
+	article(class="project2__card")
+		div(class="card__icon")
+			i(class=icon)
+		div(class="card__content")
+			h2 #{title}
+			p #{text}
+		

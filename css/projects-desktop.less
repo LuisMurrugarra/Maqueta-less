@@ -1,0 +1,15 @@
+.projects{
+  .projects__container{
+    .project__card{
+      grid-template-rows: repeat(2,220px);
+      grid-template-columns: 1/2fr 1fr;
+      grid-template-areas:"i c"
+                          "i c";
+    }
+    .project__card--two{
+      grid-template-columns: 1fr 1/2fr;
+      grid-template-areas:"c i"
+                          "c i";
+    }
+  }
+}
